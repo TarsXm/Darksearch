@@ -29,7 +29,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 40px ;
 
 }
 
@@ -62,8 +62,8 @@ body{
     flex: 1;
 }
 
-.hero__picture{
-    flex: 1;
+.hero__card{
+    flex: 0.5;
 }
 
 .hero__title{
@@ -75,15 +75,16 @@ body{
     font-weight: 300;
 }
 
-.hero__cta{
+.select__cta{
     display: inline-block;
     margin-top: 16px;
-    padding: 12px 28px;
+    padding: 12px 30px;
     border-radius: 10px;
     background-color: #fff;
     color: #000;
     text-decoration: none;
-    transition: all 0.3s;
+    
+    font-size: 1rem;
 }
 
 .hero__cta:hover{
@@ -129,24 +130,24 @@ body{
 
 
 .hero__card{
-    width: 380px;
+    width: 280px;
     height: 580px;
     border: 1px solid #fff;
     margin:20px  40px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 20px;
     transition: all 0.4s;
     padding: 0.1px;
 }
 
 .hero__card:hover{
     transform: translateY(-15px);
-    border: 2px solid #fff;
 }
 
 .card__img{
-    width: 370px;
-    height: 220px;
+    width: 372px;
+    height: 230px;
+    border-radius: 20px;
 }
 
 .card__title{
@@ -172,55 +173,5 @@ body{
 }
 
 .card__cta:hover{
-    background-color: rgb(15, 141, 15);
-}
-
-.hero__vpn{
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
-    height: calc(100vh - 70px);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 600px;
-    padding: 0.2px;
-    
-}
-
-.vpn__img{
-    max-height: 400px;
-}
-
-.vpn__texts{
-    flex: 1;
-}
-
-.vpn__picture{
-    flex: 1;
-}
-
-.vpn__title{
-    font-size: 2.6em;
-}
-
-.vpn__paragraph { 
-    font-size: 1rem;
-    font-weight: 300;
-}
-
-.vpn__cta{
-    display: inline-block;
-    margin-top: 16px;
-    padding: 12px 28px;
-    border-radius: 10px;
-    background-color: #fff;
-    color: #000;
-    text-decoration: none;
-    transition: all 0.3s;
-}
-
-.hero__cta:hover{
     background-color: rgb(15, 141, 15);
 }
