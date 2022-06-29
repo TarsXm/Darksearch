@@ -6,7 +6,7 @@ const cta = document.querySelector('#cta');
 const navegadores = document.querySelector('#navegadores');
 
 document.addEventListener('DOMContentLoaded', () => {
-    mostrarCard();
+     mostrarCard();
 });
 
 navegadores.addEventListener('change', e => {
